@@ -30,12 +30,12 @@ int main() {
 //	//Suma cifrelor unui număr natural n, de cel mult 9 cifre.
 //
 //
-//	int numarAles, sumaNumarAles = 0;
-//
+	int numarAles, sumaNumarAles = 0;
+
 	cout << "Introduce-ti un numar ales, programul va efectua suma nummarului introdus de utilizator ! " << endl << endl;
-//
+
 	cout << "Introduceti numarul ales de dumneavoastra = ",  cin >> numarAles;
-//
+
 	while (numarAles)
 	{
 		sumaNumarAles = sumaNumarAles + numarAles % 10;

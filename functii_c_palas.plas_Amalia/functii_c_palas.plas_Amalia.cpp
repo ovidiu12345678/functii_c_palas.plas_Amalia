@@ -68,10 +68,10 @@ int main() {
 //
 //	cout << "Numerele parcurse din 10 in 10 sunt : " << endl << endl;
 //
-//	for (int numarCurent = numarAles; numarCurent <= numarParcus; numarCurent += 10) {
-//
-//		cout  <<  numarCurent << endl << endl;
-//	}
+	for (int numarCurent = numarAles; numarCurent <= numarParcus; numarCurent += 10) {
+
+		cout  <<  numarCurent << endl << endl;
+	}
 //
 //
 //

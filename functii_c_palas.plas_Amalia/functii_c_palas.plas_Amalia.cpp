@@ -1,49 +1,48 @@
-﻿#include <iostream>
+#include <iostream>
 using namespace std;
-
-//int main() {
+int main() {
+	
+// sintaxa while
 //
-//	// sintaxa while
-//
-//	// while(conditie){instructiuni executate}
+    //  while(conditie){instructiuni executate}
 //
 //	// ex:
 //
 //	// parcugem numerele de la numarStart-numarAles
 //
 //
-//	/*int numarStart, numarAles;
-//
-//	cout << "Intrdoduceti numarul de statrt si cel ales de dumneavoastra pentru parcurgere !" << endl << endl;
-//
-//	cout << "numar curent de start = ", cin >> numarStart;
-//	cout << "numarul ales de dumneavoastra reprezentand numarul de start parcus = ", cin >> numarAles;
-//
-//	while (numarStart < numarAles)
-//	{
-//		numarStart++;
-//
-//		cout << numarStart;
-//	}*/
-//
+	int numarStart, numarAles;
+
+	cout << "Intrdoduceti numarul de statrt si cel ales de dumneavoastra pentru parcurgere !" << endl << endl;
+
+	cout << "numar curent de start = ", cin >> numarStart;
+	cout << "numarul ales de dumneavoastra reprezentand numarul de start parcus = ", cin >> numarAles;
+
+	while (numarStart < numarAles)
+	{
+		numarStart++;
+
+		cout << numarStart;
+	}
+
 //// ***********************************************************************************************************************
 //
 //	//Suma cifrelor unui număr natural n, de cel mult 9 cifre.
 //
 //
-//	//int numarAles, sumaNumarAles = 0;
+//	int numarAles, sumaNumarAles = 0;
 //
-//	//cout << "Introduce-ti un numar ales, programul va efectua suma nummarului introdus de utilizator ! " << endl << endl;
+	cout << "Introduce-ti un numar ales, programul va efectua suma nummarului introdus de utilizator ! " << endl << endl;
 //
-//	//cout << "Introduceti numarul ales de dumneavoastra = ",  cin >> numarAles;
+	cout << "Introduceti numarul ales de dumneavoastra = ",  cin >> numarAles;
 //
-//	//while (numarAles)
-//	//{
-//	//	sumaNumarAles = sumaNumarAles + numarAles % 10;
-//	//	numarAles = numarAles / 10;
+	while (numarAles)
+//	{
+//		sumaNumarAles = sumaNumarAles + numarAles % 10;
+//		numarAles = numarAles / 10;
 //
-//	//}
-//	//cout << " Suma numarului ales este egala cu = " << sumaNumarAles;
+//	}
+	cout << " Suma numarului ales este egala cu = " << sumaNumarAles;
 //
 //
 //
@@ -57,22 +56,22 @@ using namespace std;
 //	// for (; ;){executie block code}
 //
 //
-//	// parcurgegem numereledin 10 in 10
+	 parcurgegem numereledin 10 in 10
 //
 //
-//	//int numarAles, numarParcus;
+	int numarAles, numarParcus;
 //
-//	//cout << "Citeste numar !" << endl;
+	cout << "Citeste numar !" << endl;
 //
-//	//cout << " Ganditiva la un numar = ", cin >> numarAles;
-//	//cout << "Introduce-ti numarul parcus ce va reprezenta numarul ales = ", cin >> numarParcus;
+	cout << " Ganditiva la un numar = ", cin >> numarAles;
+	cout << "Introduce-ti numarul parcus ce va reprezenta numarul ales = ", cin >> numarParcus;
 //
-//	//cout << "Numerele parcurse din 10 in 10 sunt : " << endl << endl;
+//	cout << "Numerele parcurse din 10 in 10 sunt : " << endl << endl;
 //
-//	//for (int numarCurent = numarAles; numarCurent <= numarParcus; numarCurent += 10) {
+//	for (int numarCurent = numarAles; numarCurent <= numarParcus; numarCurent += 10) {
 //
-//	//	cout  <<  numarCurent << endl << endl;
-//	//}
+//		cout  <<  numarCurent << endl << endl;
+//	}
 //
 //
 //
@@ -100,23 +99,22 @@ using namespace std;
 //
 //
 //
-////int numar = 12, increment = 3;
-////
-////int impartire = numar /= increment++; // returneaza valoarea curenta
-////
-////
-////cout << impartire;
-//
-//
-////
-////int numar = 12, increment = 3;
-////
-////int impartire = numar /= ++increment;// ++increment ===>>> ++ 1 (unitate) + increment = 3 ==>> ++increment = 4, adica numar = 12 / increment = 4;
-////
-////cout << impartire;
-//
-//
-//
+int numar = 12, increment = 3;
+
+int impartire = numar /= increment++; // returneaza valoarea curenta
+
+cout << impartire;
+
+
+
+int numar = 12, increment = 3;
+
+int impartire = numar /= ++increment;// ++increment ===>>> ++ 1 (unitate) + increment = 3 ==>> ++increment = 4, adica numar = 12 / increment = 4;
+	
+cout << impartire;
+
+
+
 ////********************************************************************************************************************************************************************************************
 //
 //
@@ -171,37 +169,37 @@ using namespace std;
 		// EX VOLUM PARALIPIIPED DREPTUNGHIC
 
 
-	//
-	//static void PrintTextUser() {
-	//
-	//	cout << "Introduceti valorile dorite fiecarei caracteristica a componentei unui paralaripiped dreptunghic !" << endl << endl;
-	//
-	//}
-	//
-	//static int CalculezaVolumParalaripipedDreptunghic(int lungime, int inaltime, int latime) {
-	//
-	//	int volum = lungime * latime * inaltime;
-	//
-	//	return volum;
-	//}
-	//
-	//
-	//int main() {
-	//
-	//	int lungime, latime, inaltime, volum;
-	//
-	//	PrintTextUser();
-	//
-	//
-	//	cout << "Introduce-ti lungimea acestuia !" << endl << "lungime= ", cin >> lungime;
-	//	cout << "Acum introduce-ti latimea ! " << endl << "latime= ", cin >> latime;
-	//	cout << "Acum a mai ramas sa introduti inaltimea acestuia ! " << endl << "inaltime= ", cin >> inaltime;
-	//
-	//	cout << "Rezultatul volumului unui paralaripiped dreptunghic este : " << endl << "Volum paralaripiped dreptunhic= " << CalculezaVolumParalaripipedDreptunghic(lungime, latime, inaltime) << endl;
-	//	
-	//
-	//   int sumaVolumPerimetru = (lungime + latime + inaltime) + CalculezaVolumParalaripipedDreptunghic(lungime, latime, inaltime);
-	//
-	//   cout << "Rezultat suma volum perimetru= " << sumaVolumPerimetru;
-	//
-	//}
+	
+	static void PrintTextUser() {
+	
+		cout << "Introduceti valorile dorite fiecarei caracteristica a componentei unui paralaripiped dreptunghic !" << endl << endl;
+	
+	}
+	
+	static int CalculezaVolumParalaripipedDreptunghic(int lungime, int inaltime, int latime) {
+	
+		int volum = lungime * latime * inaltime;
+	
+		return volum;
+	}
+	
+	
+	int main() {
+	
+		int lungime, latime, inaltime, volum;
+	
+		PrintTextUser();
+	
+	
+		cout << "Introduce-ti lungimea acestuia !" << endl << "lungime= ", cin >> lungime;
+		cout << "Acum introduce-ti latimea ! " << endl << "latime= ", cin >> latime;
+		cout << "Acum a mai ramas sa introduti inaltimea acestuia ! " << endl << "inaltime= ", cin >> inaltime;
+	
+		cout << "Rezultatul volumului unui paralaripiped dreptunghic este : " << endl << "Volum paralaripiped dreptunhic= " << CalculezaVolumParalaripipedDreptunghic(lungime, latime, inaltime) << endl;
+		
+	
+	       int sumaVolumPerimetru = (lungime + latime + inaltime) + CalculezaVolumParalaripipedDreptunghic(lungime, latime, inaltime);
+	
+	      cout << "Rezultat suma volum perimetru= " << sumaVolumPerimetru;
+	
+	}

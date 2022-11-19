@@ -66,7 +66,7 @@ int main() {
 	cout << " Ganditiva la un numar = ", cin >> numarAles;
 	cout << "Introduce-ti numarul parcus ce va reprezenta numarul ales = ", cin >> numarParcus;
 //
-//	cout << "Numerele parcurse din 10 in 10 sunt : " << endl << endl;
+	cout << "Numerele parcurse din 10 in 10 sunt : " << endl << endl;
 //
 	for (int numarCurent = numarAles; numarCurent <= numarParcus; numarCurent += 10) {
 
@@ -109,7 +109,7 @@ cout << impartire;
 
 int numar = 12, increment = 3;
 
-int impartire = numar /= ++increment;// ++increment ===>>> ++ 1 (unitate) + increment = 3 ==>> ++increment = 4, adica numar = 12 / increment = 4;
+int impartire = numar /= ++increment;  // ++increment ===>>> ++ 1 (unitate) + increment = 3 ==>> ++increment = 4, adica numar = 12 / increment = 4;
 	
 cout << impartire;
 

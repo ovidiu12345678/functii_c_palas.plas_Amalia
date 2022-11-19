@@ -37,11 +37,11 @@ int main() {
 	cout << "Introduceti numarul ales de dumneavoastra = ",  cin >> numarAles;
 //
 	while (numarAles)
-//	{
-//		sumaNumarAles = sumaNumarAles + numarAles % 10;
-//		numarAles = numarAles / 10;
-//
-//	}
+	{
+		sumaNumarAles = sumaNumarAles + numarAles % 10;
+		numarAles = numarAles / 10;
+
+	}
 	cout << " Suma numarului ales este egala cu = " << sumaNumarAles;
 //
 //
